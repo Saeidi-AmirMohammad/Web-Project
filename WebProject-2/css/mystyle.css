@@ -1,0 +1,7 @@
+html , body{
+    font-family: vazir;
+}
+
+section.jumbotron div.container{
+    max-width: 40rem;
+}

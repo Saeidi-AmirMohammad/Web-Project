@@ -1,0 +1,53 @@
+html , body{
+    font-family: vazir;
+}
+
+header{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 0px 15px 10px -15px #111;  
+}
+
+@media screen and (min-width: 768px)
+{
+    aside#sidebar{
+        height: 100vh;
+        transition: transform .3s linear;
+        position: fixed;
+    }
+
+    #sidebar.collapse{
+        transform: translate(100% , 0);
+    }
+
+    #sidebar.show{
+        transform: translate(0 , 0);
+    }
+
+    #sidebar.collapsing{
+        transform: translate(100% , 0);
+    }
+
+    #main{
+        transition: .6s all;
+    }
+}
+
+aside#sidebar .nav-link{
+    color: #f8f9fa;
+    padding: .75rem 0;
+}
+
+aside#sidebar span.oi-chevron-left{
+    transition: .3s ease-in-out;
+    transform: rotate(-90deg);
+}
+
+aside#sidebar span.collapsed{
+    transform: rotate(0deg);
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
