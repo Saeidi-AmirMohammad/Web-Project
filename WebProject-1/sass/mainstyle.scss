@@ -51,7 +51,7 @@ div.head-section {
       margin-left: 1.5rem;
       text-decoration: none;
       color: white;
-      background-color: #1b8fe9;
+      background-color: #1088e4;
       padding: 1.21rem;
       border-radius: 3px;
     }
@@ -87,7 +87,7 @@ div.head-section {
     padding: 2rem 1.5rem;
 
     div.shopping-cart {
-      background-color: rgb(59, 177, 59);
+      background-color: rgb(68, 190, 68);
       border-radius: 3px;
 
       a {
@@ -123,7 +123,7 @@ div.slider figure {
   height: 450px;
 
   button.btn-green {
-    background-color: rgb(47, 194, 47);
+    background-color: rgb(68, 190, 68);
     border: none;
     border-radius: 3px;
     padding: 1.1rem 1.5rem;
@@ -211,7 +211,7 @@ div.mid-section-product {
       }
 
       span.offer-price {
-        color: #d63031;
+        color: #da3d3d;
         text-decoration: line-through;
         font-weight: 400;
         margin-top: 0.8rem;
@@ -219,7 +219,7 @@ div.mid-section-product {
       }
 
       span.original-price {
-        color: #2ecc71;
+        color: #34da79;
         font-weight: 400;
         margin-top: 0.7rem;
         font-size: 1.1rem;
@@ -484,7 +484,7 @@ nav.dropdown {
   }
 
   ul.child-dropdown li.is-active {
-    box-shadow: inset -2px 0px 0px #1b8fe9;
+    box-shadow: inset -2px 0px 0px #2290e4;
 
     > a {
       color: #1b8fe9;
@@ -513,7 +513,7 @@ nav.dropdown {
     }
 
     > a:hover {
-      color: #1b8fe9;
+      color: #2c99ec;
     }
   }
 
@@ -546,7 +546,7 @@ nav.dropdown {
         margin: 0.75rem 0;
 
         > h4 {
-          color: #1b8fe9;
+          color: #309df0;
         }
 
         a {
@@ -560,7 +560,7 @@ nav.dropdown {
         }
 
         a:hover {
-          color: #1b8fe9;
+          color: #309df0;
         }
 
         ul.child-is-hidden {
